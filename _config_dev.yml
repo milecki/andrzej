@@ -1,0 +1,18 @@
+# Site settings
+title: Andrzej Strzemżalski
+email: a.strzemzalski@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Andrzej Strzemżalski - kompozytor filmowy i teatralny.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ["_pages"]
+kramdown:
+  input: GFM
+# markdown: kramdown
+# theme: minima
+plugins:
+  - jekyll-sitemap
